@@ -3,7 +3,7 @@ MAINTAINER Florin Patan
 
 EXPOSE 4567
 
-ENV DYNALITE_VERSION=0.19.0
+ENV DYNALITE_VERSION=1.0.3
 
 RUN apt-get update && apt-get install -y g++ \
         make \
