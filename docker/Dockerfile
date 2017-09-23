@@ -3,14 +3,14 @@ MAINTAINER Florin Patan
 
 EXPOSE 4567
 
-ENV DYNALITE_VERSION=1.0.3
+ENV DYNALITE_VERSION=1.2.0
 
 RUN apt-get update && apt-get install -y g++ \
         make \
         python \
         software-properties-common \
         wget
-RUN wget -qO- https://deb.nodesource.com/setup_5.x | bash - && \
+RUN wget -qO- https://deb.nodesource.com/setup_6.x | bash - && \
     apt-get update && \
     apt-get install -y nodejs
 RUN wget -O dynalite.tar.gz https://github.com/mhart/dynalite/archive/v${DYNALITE_VERSION}.tar.gz && \

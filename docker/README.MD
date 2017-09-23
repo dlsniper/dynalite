@@ -9,7 +9,7 @@ Dynalite can be found here: [https://github.com/mhart/dynalite](https://github.c
 In order to use this, simply run:
 
 ```bash
-docker run -d -t -p 4567:4567 dlsniper/dynalite:1.0.3
+docker run -d -t -p 4567:4567 dlsniper/dynalite:1.2.0
 ```
 
 ## Issues & contributions
